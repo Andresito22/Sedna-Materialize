@@ -29,6 +29,7 @@ header{
 .brand-logo{
     width: 99px;
     height: 19px;
+    position: relative !important;
 }
 nav ul li  a {
     font-size: 13px;
@@ -106,5 +107,78 @@ h1{
 
 .flecha{
     color: white;
-    padding-top: 90px;
+    padding-top: 70px;
+    animation: efect 900ms alternate infinite linear;
+}
+
+@keyframes efect {
+    0% { transform: translateY(0px);}
+    50% { transform: translateY(-10px);}
+    100% { transform: translateY(0px);}
+}
+
+.contenedor2{
+    position: relative;
+    top: 100px;
+}
+.img {
+   width: 38.75px;
+   height: 40px;
+   font-weight: 400;
+   
+}
+.intro-icon, .intro-content{
+    display: inline-block;
+}
+.intro-content{
+    width: 80%;
+}
+.intro-icon{
+    vertical-align: top;
+    padding-right: 20px;
+}
+
+h5{
+    margin: 0;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+p{
+    font-size: 15px;
+    line-height: 29px;
+    color: rgba(28,54,83,.6);
+    padding-bottom: 20px;
+}
+
+.contenedor3{
+    background-color:#F3F4F8;
+}
+
+.ipad{
+    width: 706px;
+    height: 1002px;
+    background: url(../img/ipad-device.png) center center no-repeat;
+    z-index: 1;
+
+    left: -200px;
+}
+
+@media only screen and (max-width: 991px){
+    .intro-content{
+        width: 75%;
+    }
+
+    .flecha{
+        padding-top: 20px;
+    }
+    .botones{
+        top:20px;
+    }
+}
+
+@media only screen and (max-width: 1200px){
+    .intro-content{
+        width: 70%;
+    }
 }

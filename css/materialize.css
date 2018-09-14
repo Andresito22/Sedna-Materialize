@@ -2062,11 +2062,11 @@
 }
 
 .grey.lighten-3 {
-  background-color: #eeeeee !important;
+  background-color: #eeeeee2a  !important;
 }
 
 .grey-text.text-lighten-3 {
-  color: #eeeeee !important;
+  color: #eeeeee2a ;
 }
 
 .grey.lighten-2 {
@@ -8434,8 +8434,8 @@ input[type=range]::-ms-thumb {
   display: inline-block;
   position: relative;
   cursor: pointer;
-  height: 8px;
-  width: 8px;
+  height: 10px ;
+  width: 10px ;
   margin: 24px 4px;
   background-color: rgba(255, 255, 255, 0.5);
   -webkit-transition: background-color .3s;
